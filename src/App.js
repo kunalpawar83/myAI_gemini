@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
     console.log(question);
     axios
-      .post("https://backend-gemini.onrender.com/api/gemini", {
+      .post("https://backend-ai-gemini.vercel.app//api/gemini", {
         question: question,
       })
       .then((response) => {
